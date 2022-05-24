@@ -656,6 +656,9 @@ class App extends React.Component {
               ></iframe>
             </div>
           )}
+          {lvl > 0 ? (
+            <h4>Cliquez sur le point d'interrogation pour l'aide :</h4>
+          ) : null}
         </div>
         {this.state.gameState == -4 ? (
           <div>
