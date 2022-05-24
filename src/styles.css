@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.form-control {
+  background: #ffffff;
+  border: 1px solid #d2d6db;
+  border-radius: 6px;
+  padding: 8px;
+  height: 20px;
+  min-width: 20px;
+}
+.submit-btn {
+  padding: 16px 24px;
+  font-weight: 500;
+  color: #ffff;
+  border: 1px solid #d2d6db;
+  background-color: #5850eb;
+  border-radius: 6px;
+  cursor: pointer;
+}
+tr {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+table {
+  border-collapse: collapse;
+}
+#card {
+  position: relative;
+}
+
+#hlpBut {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+table.top {
+  width: 100%;
+  border-spacing: 0;
+}
+tr.top {
+  background-image: url("https://bankiiiz.com/wordpress/wp-content/uploads/2015/09/cropped-Fond-2-Jpeg.jpg");
+  background-size: 100% auto;
+  background-position: 50% 35%;
+  color: #ffffff;
+  text-align: left;
+}
